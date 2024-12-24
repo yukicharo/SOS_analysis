@@ -24,7 +24,7 @@ $ for m in `seq -w 1 31`; do for t in T0427 T0428 T0528 T0529; do ./SGLI_geo_map
 
 $ for y in `seq 18 23`; do for m in `seq -w 1 12`; do for d in `seq -w 1 31`; do gdal_merge.py GC*20${y}${m}${d}*_Rs_VN05.tif -o merge_20${y}${m}${d}_VN05.tif -n 65535 -a_nodata 65535; done; done; done
 
-#After this, you can run 4_GCOM_add_pixel.py, 5_GCOM_Cloud_Cover.py, 6_GCOM_extract_vegetation.py, 7_GCOM_region_cut.py and 8_GCOM_SOS_DOY.py.
+#After this, you can run 4_GCOM_add_pixel.py, 5_GCOM_Cloud_Cover.py, 6_GCOM_extract_vegetation.py, 7_GCOM_region_cut.py and 8_GCOM_SOS_DOY.py at this order.
 
 #If you want to calculate anomalies, you can run script to calculate its anomalies.
 
