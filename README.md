@@ -1,4 +1,9 @@
 # SOS_analysis
+
+#My environment
+
+#OS: Ubuntu22.04 LTS
+
 #For pre-processing of satellite data, you need to run scripts as following:
 
 #1. Download SGLI data from GPortal
