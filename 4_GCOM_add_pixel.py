@@ -2,7 +2,8 @@
 #Written by Yuki Mizuno
 #In some cases, satellite data shape (size) is diffrence from each other after marging.
 #So, in this script, you can reshape tif files based on model file.
-#You can download model tile from same page.
+#Model tif is too big (about 223 MB). If you want, please contact me via e-mail. 
+#Normally, you can define your AOI (scope of model tif) and make model tif.
 
 from osgeo import gdal, ogr, osr
 import os
