@@ -1,6 +1,6 @@
 #2024/07/05
 #Written by Yuki Mizuno (University of Tsukuba)
-#This script is to cut satellite images based on model tif each region
+#This script is to cut satellite images based on model tif each region because it is too big to calculate SOS at each pixel whole Japan at once.
 #You need to make model tif each region before running this script.
 #If you want model tif each region, please contact me via e-mail.
 
