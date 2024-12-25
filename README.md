@@ -1,8 +1,9 @@
 # SOS_analysis
+# Written by Yuki Mizuno (University of Tsukuba) on 25 Dec. 2024
+# Scripts (#1-#3) are written by Hina Tachikawa (Universuty of Tsukuba) and Yuki Mizuno.
+# If you want to know how to use specifically, please contact me.
 
-#My environment
-
-#OS: Ubuntu22.04 LTS
+#My environment (OS: Ubuntu22.04 LTS)
 
 #For pre-processing of satellite data, you need to run scripts as following:
 
@@ -16,7 +17,7 @@ $ for y in `seq 18 24`; do for m in `seq -w 1 12`; do for d in `seq -w 1 31`; do
 
 #You need to change "/Image_data/dataset" 
 
-#You can show included datase.>h5dump -n filename.h5
+#You can show included dataset > h5dump -n filename.h5
 
 $ for m in `seq -w 1 31`; do for t in T0427 T0428 T0528 T0529; do ./SGLI_geo_map_linux.exe GC1SG1_2023${m}${d}_${t}.h5 -d /Image_data/dataset -r NN; done; done
 
